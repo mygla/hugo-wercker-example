@@ -25,13 +25,12 @@ build:
         code: |
           echo "hello world!"
 
-box: wercker/default
+box: debian
 build:
   steps:
     - arjen/hugo-build:
-        version: 0.13
+        version: 0.14
         theme: herring-cove
-        config: second-config.toml
         flags: --buildDrafts=true
 deploy:
   steps:
