@@ -24,7 +24,6 @@ build:
         name: echo
         code: |
           echo "hello world!"
-
 box: debian
 build:
   steps:
