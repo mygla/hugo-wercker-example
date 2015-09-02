@@ -37,5 +37,5 @@ deploy:
   steps:
     - lukevivier/gh-pages@0.2.1:
         token: $GIT_TOKEN
-        domain: hugo-wercker.ig.nore.me
+        domain: http://mygla.github.io/hugo-wercker-example
         basedir: public
