@@ -24,10 +24,3 @@ build:
         name: echo
         code: |
           echo "hello world!"
-box: debian
-build:
-  steps:
-    - arjen/hugo-build:
-        version: 0.14
-        theme: herring-cove
-        flags: --buildDrafts=true
